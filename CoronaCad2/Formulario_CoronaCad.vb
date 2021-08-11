@@ -31,8 +31,9 @@ Public Class Formulario_CoronaCad
 
     Dim objetosCriados As New ObjectIdCollection
 
-    <CommandMethod("CoronaCad4")>
-    Public Sub CoronaCad4()
+    <CommandMethod("CoronaCad2")>
+    Public Sub CoronaCad2()
+        'o comando começa rodar por aqui
         'abrir o formulario
         Me.ShowDialog()
     End Sub
