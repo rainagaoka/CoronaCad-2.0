@@ -405,7 +405,7 @@ Public Class Formulario_CoronaCad
             textoDado.AdjustAlignment(db)
 
             'criar polyline dos dados
-            CriarLayer("Dados", "Continuous", 0)
+            CriarLayer("Dados", "Continuous", 251)
             Dim polyDados As New Polyline With {.Layer = "Dados", .ConstantWidth = 5}
             AddToModelSpace(polyDados, db)
 
