@@ -59,6 +59,7 @@
     </Reference>
     <Reference Include="acdbmgdbrep">
       <HintPath>C:\Program Files\Autodesk\AutoCAD 2017\acdbmgdbrep.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="acmgd">
       <HintPath>C:\Program Files\Autodesk\AutoCAD 2017\acmgd.dll</HintPath>
